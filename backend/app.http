@@ -1,0 +1,98 @@
+### Test the Register API
+
+POST http://localhost:3000/register
+Content-Type: application/json
+
+{
+  "username": "testuser",
+  "email": "testuser@example.com",
+  "password": "testpassword",
+  "name":"tester"
+}
+
+
+### 
+
+POST http://localhost:3000/login 
+Content-Type: application/json 
+
+{
+    "username":"manoj",
+    "password":"manoj2632"
+}
+
+
+### 
+// get all the todos
+
+POST http://localhost:3000/
+Content-Type: application/json 
+
+{
+  "user_id" : "945f1b0d-8821-402b-bdb0-6ea3cc2aeee1"
+}
+
+### 
+
+// add new todo
+POST http://localhost:3000/add-todo
+Content-Type: application/json 
+
+{
+  "user_id" : "945f1b0d-8821-402b-bdb0-6ea3cc2aeee1",
+  "todo":"Learn CSS",
+  "is_completed" : false
+}
+
+
+### 
+
+// change status 
+PUT http://localhost:3000/change-status
+Content-Type: application/json 
+
+{
+  "todo_id" : "661bf7b7-1cc9-4963-9110-d7e022c836fb",
+  "status" : true
+}
+
+
+### 
+
+DELETE http://localhost:3000/delete-todo 
+Content-Type: application/json 
+
+{
+  "todo_id" : "661bf7b7-1cc9-4963-9110-d7e022c836fb"
+}
+
+
+### // updating name 
+POST http://localhost:3000/profile 
+Content-Type: application/json
+
+{
+  "user_id": "3a0a37f0-ca80-4c40-9379-45b191be8268"
+}
+
+
+
+
+### // updating profile 
+PUT http://localhost:3000/update-profile 
+Content-Type: application/json 
+
+{
+  "user_id": "945f1b0d-8821-402b-bdb0-6ea3cc2aeee1",
+  "email" : "testusermanoj@example.com"
+}
+
+
+### // updating password 
+PUT http://localhost:3000/change-password
+Content-Type: application/json 
+
+{
+  "user_id": "945f1b0d-8821-402b-bdb0-6ea3cc2aeee1",
+  "password": "testpasswordmk"
+}

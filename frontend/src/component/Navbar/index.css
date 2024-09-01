@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+}
+p{
+    margin: 0px;
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    background-color: #e6f6ff;
+    height: 60px; 
+    width: 100%;
+    padding: 5px;
+    justify-content: space-between;
+}
+.logout-btn{
+    background-color: #FABC3F;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #000;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 15px;
+    font-weight: 500;
+}
+.popup-container{
+    height: 150px;
+    width: 320px;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: #fff;
+    color: rgb(0, 48, 110);
+}
+.cancel-button{
+    margin-right: 25px;
+    color: #94a3b8;
+    border: 1px solid #616e7c;
+    padding: 10px 15px;
+    background-color: transparent;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.confirm-btn{
+    color: #fff;
+    background-color: #3b82f6;
+    padding: 11px 15px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:578px) {
+    .popup-container{
+        width: auto;
+    }
+}

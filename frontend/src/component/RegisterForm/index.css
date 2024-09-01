@@ -1,0 +1,27 @@
+
+.username-input-field-reg{
+    height: 20px;
+    font-size: 14px;
+    height: 30px;
+    border: 1px solid #d7dfe9;
+    background-color: #e2e8f0;
+    color: #64748b;
+    border-radius: 2px;
+    margin-top: 5px;
+    padding: 8px 16px 8px 16px;
+    outline: none;
+}
+
+
+
+.form-container-reg{
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      padding: 30px 48px 30px 48px;
+      border-radius: 10px;
+}
+
+@media screen and (min-width:600px) {
+    .form-container-reg{
+        width: 350px;
+    }
+}

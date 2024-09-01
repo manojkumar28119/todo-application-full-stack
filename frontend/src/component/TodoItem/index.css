@@ -1,0 +1,74 @@
+.todo-item-container {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+  
+  
+  .button {
+    color: white;
+    background-color: #4c63b6;
+    font-family: "Roboto";
+    font-size: 18px;
+    border-width: 0px;
+    border-radius: 4px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    cursor: pointer;
+  }
+  
+  .label-container {
+    background-color: #e6f6ff;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #096f92;
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+  }
+
+  
+  .checkbox-input {
+    width: 20px;
+    height: 20px;
+    margin-top: 6px;
+    margin-right: 12px;
+    cursor: pointer;
+  }
+  
+  .checkbox-label {
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400;
+    width: 82%;
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+  }
+  
+  .delete-icon-container {
+    text-align: right;
+    width: 18%;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .delete-icon {
+    padding: 15px;
+  }
+  
+  .checked {
+    text-decoration: line-through;
+  }
